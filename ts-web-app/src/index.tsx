@@ -4,12 +4,19 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-import 'bootswatch/dist/lumen/bootstrap.min.css'
+import 'bootswatch/dist/lux/bootstrap.min.css'
+import Nav from './components/organisms/nav/Nav';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <div>
+      <Nav />
+      <Switch>
+        <Route exact path="/" component={App} />        
+      </Switch>
+    </div>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
