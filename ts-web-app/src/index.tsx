@@ -5,15 +5,17 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 import 'bootswatch/dist/lux/bootstrap.min.css'
-import Nav from './components/organisms/nav/Nav';
+import Nav from './components/organisms/Nav';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import About from './components/templates/About';
 
 ReactDOM.render(
   <BrowserRouter>
     <div>
       <Nav />
       <Switch>
-        <Route exact path="/" component={App} />        
+        <Route exact path="/" component={App} />
+        <Route exact path="/about" component={About} />
       </Switch>
     </div>
   </BrowserRouter>,
