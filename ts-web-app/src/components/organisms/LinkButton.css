@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+a {
+  margin: 20px;
+  text-align: center;
+}
+.custom-link {
+  width: 130px;
+  height: 40px;
+  padding: 10px 10px 0px 10px;
+  border: 2px solid #1B9945;
+  font-family: "Ubuntu", Ubuntu;
+  font-weight: 500;
+  background: #1B9945;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+/* 11 */
+.link-11 {
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.link-11:hover {
+  background: #E1DEE3;
+  border-color: #E1DEE3;
+  text-decoration: none;
+
+}
+.link-11:before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  top: -180px;
+  left: 0;
+  width: 30px;
+  height: 100%;
+  background-color: #E1DEE3;
+  border-color: #E1DEE3;
+  animation: shiny-btn1 3s ease-in-out infinite;
+}
+.link-11:active {
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.3),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, 0.2);
+}

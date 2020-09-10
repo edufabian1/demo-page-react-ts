@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import "../organisms/LinkButton.css";
 function Nav(): JSX.Element {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -25,6 +25,8 @@ function Nav(): JSX.Element {
             </Link>
           </li>
         </ul>
+        <Link to="/about" className="custom-link link-11">LOG IN</Link>
+        <Link to="/about" className="custom-link link-11">SIGN UP</Link>
       </div>
     </nav>
   );
