@@ -17,7 +17,7 @@ function SignUp(props: any): JSX.Element {
         className="custom-link link-11"
         onClick={() => setNewStateModal(!newStateModal)}
       >
-        SIGN UP
+        CREAR CUENTA
       </Button>
 
       <Modal isOpen={newStateModal}>

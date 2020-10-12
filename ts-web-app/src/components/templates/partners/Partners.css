@@ -1,0 +1,10 @@
+.data-partners {
+  margin: 5em 5em 10em 5em;
+  padding: 1em;
+  float: left;
+  max-width: 20rem;
+}
+
+.img-partners{
+    height: 200px; width: 100%; display: block;
+}

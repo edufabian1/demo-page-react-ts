@@ -13,17 +13,22 @@ function Nav(): JSX.Element {
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
             <Link to="/" className="nav-link">
-              Home
+              Inicio
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/Features" className="nav-link">
-              Features
+            <Link to="/parters" className="nav-link">
+              Sponsors
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/contact" className="nav-link">
+              Contacto
             </Link>
           </li>
           <li>
             <Link to="/about" className="nav-link">
-              About
+              Nosotros
             </Link>
           </li>
         </ul>

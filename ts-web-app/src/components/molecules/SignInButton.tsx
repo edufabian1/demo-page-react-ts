@@ -17,7 +17,7 @@ function Login(props: any): JSX.Element {
         className="custom-link link-11"
         onClick={() => setNewStateModal(!newStateModal)}
       >
-        SIGN IN
+        INICIAR SESION
       </Button>
 
       <Modal isOpen={newStateModal}>
