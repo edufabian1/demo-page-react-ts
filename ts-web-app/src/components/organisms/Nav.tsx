@@ -12,7 +12,7 @@ function Nav(): JSX.Element {
       <div className="collapse navbar-collapse" id="navbarColor01">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
-            <Link to="/" className="nav-link">
+            <Link to="/home" className="nav-link">
               Inicio
             </Link>
           </li>

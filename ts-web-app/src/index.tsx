@@ -10,12 +10,14 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import About from "./components/templates/About";
 import Contact from "./components/templates/Contact";
 import Partners from "./components/templates/partners/Partners";
+import App from "./App";
 
 ReactDOM.render(
   <BrowserRouter>
     <div>
       <Nav />
       <Switch>
+        <Route exact path="/home" component={App} />
         <Route exact path="/parters" component={Partners} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
